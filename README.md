@@ -27,8 +27,4 @@
 | <code>Settimeout()</code> | defines the wait time for a response | Critical for performance; prevents the scanner from hanging on unresponsive firewalls. |
 
 
-<p align="center">
-  <img src="whatsup.png.png" alt="Port Scanner Diagram" width="600">
-  <br>
-  <i>Figure 1: Visual representation of the TCP Three-Way Handshake used during scanning.</i>
-</p>
+![TCP Handshake]([https://example.com/image.png](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/1))
