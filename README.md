@@ -26,5 +26,12 @@
 | <code>connect_ex()</code> | connect() variant that returns an error code. | Return <code>0</code> on Success preventing the script from crashing on closed ports (Error Handling) |
 | <code>Settimeout()</code> | defines the wait time for a response | Critical for performance; prevents the scanner from hanging on unresponsive firewalls. |
 
+# Process
 
-![TCP Handshake](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/1#issue-3943454361)
+* $$\color{orange}{\text{Step-1: Open Any Linux Terminal}}$$
+  ![My Terminal](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/2#issue-3943769399)
+  1. type in this code 
+  2. <code>cat > portscan.py</code> 
+  3. Enter
+  4. Ctrl + C
+  5. <code>ls</code>
