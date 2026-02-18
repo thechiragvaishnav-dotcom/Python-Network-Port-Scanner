@@ -1,6 +1,6 @@
 # Python-Network-Port-Scanner
 
-* $$\color{red}{\text{Step-1: The set-up}}$$
+* $$\color{red}{\text{Step-1: The Set-up}}$$
   | 1. Open Any Linux Terminal | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/2#issue-3943769399) | |
   | :--- | :---: |:--- |
   | 2. <code>cat > portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/3#issue-3943797607) | |
@@ -11,7 +11,7 @@
   | 7. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/8#issue-3943898199) | |
   | 8. $$\color{orange}{\text{Copy: }}$$ Below $$\color{red}{\text{Step-2: The script}}$$ <br> $$\color{orange}{\text{Paste: }}$$ <code>Ctrl</code> + <code>Shift</code> + <code>V</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/39#issue-3957477479) | $$\color{orange}{\text{Zoom out: }}$$ <code>Ctrl</code> + <code>-</code> <br> $$\color{orange}{\text{Zoom in: }}$$ <code>Ctrl</code> + <code>Shift</code> + <code>+</code> |
   
-* $$\color{red}{\text{Step-2: The script}}$$
+* $$\color{red}{\text{Step-2: The Script}}$$
   <pre><code>                                                                            
     import socket
     import subprocess
@@ -57,8 +57,25 @@
     
     print("Scanning Completed in", total)
   </code></pre>
-  
-* $$\color{red}{\text{Step-3: Explanation of script}}$$
+
+* $$\color{red}{\text{Step-3: Saving The Script}}$$
+  | 9. Exiting from the $$\color{orange}{\text{script}}$$ File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
+  |:---|:---|:---|
+  | 10. Saving $$\color{orange}{\text{script}}$$ File Before Exiting. <br> <code>Y</code> Yes| ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/28#issue-3951343868) | |
+  | 11. Whant to Rename( <code>nano portscan.py</code> ) or name(if not given <code>nano</code> ). | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/29#issue-3951371192) | If Rename it will ask keep it <code>portscan.py</code> or change it. <br> If name it will ask for to give a name to your script file. |
+  | 12. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/30#issue-3951384995) | |
+
+* $$\color{red}{\text{Step-4: Running The Script}}$$
+  | 13. <code>python portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/31#issue-3951541739) | |
+  | :--- | :--- | :--- |
+  | 14. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/32#issue-3951563676) | |
+  | 15. Enter a remote host to scan: <code>scanme.nmap.org</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/33#issue-3951586007) | # $$\color{orange}{\text{target that we want to scan for open ports if any}}$$ <br> Nmap project provides a specific authorized target |
+  | 16. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/34#issue-3951593865) | you can see <code>scanme.nmap.org</code> provided as with target IP address. <br> $$\color{orange}{\text{wait for few minutes}}$$ |
+  | 17. found my first open port | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/35#issue-3951619804) | wait few more minutes for script to end |
+  | 18. script Ended | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/36#issue-3952417083) | After waiting for $$\color{orange}{\text{41 minutes}}$$ Project Done !! |   
+
+# Explanation of The Script
+
   |  write this inside portscan.py(file) | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/8#issue-3943898199) | Same as $$\color{red}{\text{Step-1: The set-up}}$$, 7. <code>Enter</code> |
   | :--- | :--- | :--- |
   | 1. Using import in python<br><code>import socket</code><br><code>import subprocess</code><br><code>import sys</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/9#issue-3944124498) | these are things that someone else coded in the Python language<br> that allows us to automate some of the stuff that we're going to be doing |
@@ -80,19 +97,3 @@
   | 9. Calculating time for the script to run in Python: <br> <code>t2 = datetime.now()</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/24#issue-3951249503) | # $$\color{orange}{\text{Checking time again}}$$ <br> we're defining date & time now as t2. |
   | <code>total = t2 - t1</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/25#issue-3951268406) | # $$\color{orange}{\text{Calculating the difference in time to now how long the scan took}}$$ <br> So we're going to call t1 & t2 & say, take t1, whatever the date & time was, then subtract that from t2, which is what the date & time is now, & that will tell us how long it took for the script to run. |
   | <code>print("Scanning Completed in", total)</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/26#issue-3951295983) | # $$\color{orange}{\text{Printing the information on the screen }}$$ <br> i. we're going to take that number & print that in a message that saya, scanning completed in however many seconds. <br> ii. That's the basic functionality of the script. |
-
-* $$\color{red}{\text{Step-4: Saving script}}$$
-  | 1. Exiting from the $$\color{orange}{\text{script}}$$ File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
-  |:---|:---|:---|
-  | 2. Saving $$\color{orange}{\text{script}}$$ File Before Exiting. <br> <code>Y</code> Yes| ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/28#issue-3951343868) | |
-  | 3. Whant to Rename( <code>nano portscan.py</code> ) or name(if not given <code>nano</code> ). | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/29#issue-3951371192) | If Rename it will ask keep it <code>portscan.py</code> or change it. <br> If name it will ask for to give a name to your script file. |
-  | 4. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/30#issue-3951384995) | |
-
-* $$\color{red}{\text{Step-5: The execution}}$$
-  | 1. <code>python portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/31#issue-3951541739) | |
-  | :--- | :--- | :--- |
-  | 2. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/32#issue-3951563676) | |
-  | 3. Enter a remote host to scan: <code>scanme.nmap.org</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/33#issue-3951586007) | # $$\color{orange}{\text{target that we want to scan for open ports if any}}$$ <br> Nmap project provides a specific authorized target |
-  | 4. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/34#issue-3951593865) | you can see <code>scanme.nmap.org</code> provide as with target IP address. <br> $$\color{orange}{\text{wait for few minutes}}$$ |
-  | 5. found my first open port | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/35#issue-3951619804) | wait few more minutes for script to end |
-  | 6. script Ended | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/36#issue-3952417083) | After waiting for $$\color{orange}{\text{41 minutes}}$$ Project Done !! |   
