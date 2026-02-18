@@ -82,11 +82,11 @@
   | <code>print("Scanning Completed in", total)</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/26#issue-3951295983) | # $$\color{orange}{\text{Printing the information on the screen }}$$ <br> i. we're going to take that number & print that in a message that saya, scanning completed in however many seconds. <br> ii. That's the basic functionality of the script. |
 
 * $$\color{red}{\text{Step-4: Saving script}}$$
-  | 10. Exiting from the $$\color{orange}{\text{script}}$$ File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
+  | 1. Exiting from the $$\color{orange}{\text{script}}$$ File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
   |:---|:---|:---|
-  | 11. Saving $$\color{orange}{\text{script}}$$ File Before Exiting. <br> <code>Y</code> Yes| ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/28#issue-3951343868) | |
-  | 12. Whant to Rename( <code>nano portscan.py</code> ) or name(if not given <code>nano</code> ). | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/29#issue-3951371192) | If Rename it will ask keep it <code>portscan.py</code> or change it. <br> If name it will ask for to give a name to your script file. |
-  | 13. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/30#issue-3951384995) | |
+  | 2. Saving $$\color{orange}{\text{script}}$$ File Before Exiting. <br> <code>Y</code> Yes| ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/28#issue-3951343868) | |
+  | 3. Whant to Rename( <code>nano portscan.py</code> ) or name(if not given <code>nano</code> ). | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/29#issue-3951371192) | If Rename it will ask keep it <code>portscan.py</code> or change it. <br> If name it will ask for to give a name to your script file. |
+  | 4. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/30#issue-3951384995) | |
 
 * $$\color{red}{\text{Step-5: The execution}}$$
   | 1. <code>python portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/31#issue-3951541739) | |
