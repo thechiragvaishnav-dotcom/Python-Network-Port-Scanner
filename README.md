@@ -94,4 +94,4 @@
   | 3. Enter a remote host to scan: <code>scanme.nmap.org</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/33#issue-3951586007) | # $$\color{orange}{\text{target that we want to scan for open ports if any}}$$ <br> Nmap project provides a specific authorized target |
   | 4. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/34#issue-3951593865) | you can see <code>scanme.nmap.org</code> provide as with target IP address. <br> $$\color{orange}{\text{wait for few minutes}}$$ |
   | 5. found my first open port | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/35#issue-3951619804) | wait few more minutes for script to end |
-  | 6 script Ended | ![View]( | Project Done !! |   
+  | 6. script Ended | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/36#issue-3952417083) | After waiting for $$\color{orange}{\text{41 minutes}}$$ Project Done !! |   
