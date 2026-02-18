@@ -9,7 +9,8 @@
   | 5. <code>ls</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/6#issue-3943861328) | Here, you should see $$\color{white}{\text{portscan.py}}$$(file) not same color as as other $$\color{blue}{\text{directories}}$$ |
   | 6. <code>nano portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/7#issue-3943889557) | |
   | 7. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/8#issue-3943898199) | |
-
+  | 8. $$\color{orange}{\text{Copy: }}$$ Below $$\color{red}{\text{Step-2: The script}}$$ <br> $$\color{orange}{\text{Paste: }}$$ <code>Ctrl</code> + <code>Shift</code> + <code>V</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/39#issue-3957477479) | $$\color{orange}{\text{Zoom out: }}$$ <code>Ctrl</code> + <code>-</code> <br> $$\color{orange}{\text{Zoom in: }}$$ <code>Ctrl</code> + <code>Shift</code> + <code>+</code> |
+  
 * $$\color{red}{\text{Step-2: The script}}$$
   <pre><code>                                                                            
     import socket
