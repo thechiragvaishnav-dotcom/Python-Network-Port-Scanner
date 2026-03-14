@@ -12,7 +12,7 @@
   | 8. **Copy & Paste:** <br> $$\color{orange}{\text{Copy}}$$ <code>Ctrl</code> + <code>C</code> for windows <br> Below $$\color{red}{\text{Step-2: The script}}$$ <br> $$\color{orange}{\text{Paste}}$$ <code>Ctrl</code> + <code>Shift</code> + <code>V</code> for Linux <br> in your terminal file(portscan.py) | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/39#issue-3957477479) | in your linux terminal <br> **Zoom out:** <code>Ctrl</code> + <code>-</code> <br> **Zoom in:** <code>Ctrl</code> + <code>Shift</code> + <code>+</code> |
   
 * $$\color{red}{\text{Step-2: The Script}}$$
-  <pre><code>                                                                            
+<pre><code>                                                                            
 import socket
 import subprocess
 import sys
@@ -31,32 +31,32 @@ print("-" * 60)
 t1 = datetime.now()
 
 try:
-for port in range(1,5000):
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.settimeout(0.5)
-result = sock.connect_ex((remoteServerIP, port))
-if result == 0:
-print("Port{}:        Open".format(port))
-sock.close()
+    for port in range(1,5000):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(0.5)
+        result = sock.connect_ex((remoteServerIP, port))
+        if result == 0:
+           print("Port{}:        Open".format(port))
+        sock.close()
 
 except KeyboardInterrupt:
-print("You pressed Ctrl + C")
-sys.exit()
+    print("You pressed Ctrl + C")
+    sys.exit()
 
 except socket.gaierror:
-print("Hostname could not be resolved Exiting")
-sys.exit()
+    print("Hostname could not be resolved Exiting")
+    sys.exit()
 
 except socket.error:
-print("Couldn't connect to server")
-sys.exit()
+    print("Couldn't connect to server")
+    sys.exit()
 
 t2 = datetime.now()
 
 total = t2 - t1
 
 print("Scanning Completed in", total)
-  </code></pre>
+</code></pre>
 
 * $$\color{red}{\text{Step-3: Saving The Script}}$$
   | 9. Exiting from the $$\color{orange}{\text{script}}$$ File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
