@@ -1,5 +1,12 @@
 # Python-Network-Port-Scanner
 
+## Content
+- [Step-1: The Set-up](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-1-the-set-up)
+- [Step-2: The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-2-the-script)
+- [Step-3: Saving The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-3-saving-the-script)
+- [Step-4: Running The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-4-running-the-script)
+- [Explanation of The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#explanation-of-the-script)
+
 ## Step-1: The Set-up
   | 1. Open Any Linux Terminal | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/2#issue-3943769399) | |
   | :--- | :---: |:--- |
@@ -10,6 +17,8 @@
   | 6. <code>nano portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/7#issue-3943889557) | |
   | 7. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/8#issue-3943898199) | |
   | 8. Copy & Paste: <br> Copy <code>Ctrl</code> + <code>C</code> for windows <br> Below Step-2: The script <br> Paste <code>Ctrl</code> + <code>Shift</code> + <code>V</code> for Linux <br> in your terminal file(portscan.py) | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/39#issue-3957477479) | in your linux terminal <br> Zoom out: <code>Ctrl</code> + <code>-</code> <br> Zoom in: <code>Ctrl</code> + <code>Shift</code> + <code>+</code> |
+
+## [Back to Content](
   
 ## Step-2: The Script
 <pre><code>                                                                            
@@ -58,6 +67,8 @@ total = t2 - t1
 print("Scanning Completed in", total)
 </code></pre>
 
+## [Back to Content](
+  
 ## Step-3: Saving The Script
   | 9. Exiting from the script File. <br> <code>Ctrl + X</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/27#issue-3951318135) | |
   |:---|:---|:---|
@@ -65,6 +76,8 @@ print("Scanning Completed in", total)
   | 11. Want to Rename( <code>nano portscan.py</code> ) <br> or name( if not given <code>nano</code> only ). | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/29#issue-3951371192) | If already name it will ask keep it <code>portscan.py</code> or change it. <br> If not named( <code>nano</code> only ) it will ask for to give a name to your script file. |
   | 12. <code>Enter</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/30#issue-3951384995) | |
 
+## [Back to Content](
+  
 ## Step-4: Running The Script
   | 13. <code>python portscan.py</code> | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/31#issue-3951541739) | You are telling your computer, <br> "Use the Python program to read and run <br> the instructions inside the file portscan.py". |
   | :--- | :--- | :--- |
@@ -74,6 +87,8 @@ print("Scanning Completed in", total)
   | 17. found my first open port | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/35#issue-3951619804) | wait few more minutes for script to end |
   | 18. script Ended | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/36#issue-3952417083) | After waiting for 41 minutes Project Done !! |   
 
+## [Back to Content](
+  
 # Explanation of The Script
 
 - Importing Tools (Libraries)
