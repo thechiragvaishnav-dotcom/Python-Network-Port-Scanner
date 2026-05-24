@@ -2,10 +2,10 @@
 
 ## Content
 - [Step-1: The Set-up](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#step-1-the-set-up)
-- [Step-2: The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-2-the-script)
-- [Step-3: Saving The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-3-saving-the-script)
-- [Step-4: Running The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-4-running-the-script)
-- [Explanation of The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#explanation-of-the-script)
+- [Step-2: The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#step-2-the-script)
+- [Step-3: Saving The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#step-3-saving-the-script)
+- [Step-4: Running The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#step-4-running-the-script)
+- [Explanation of The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#explanation-of-the-script)
 
 ## Step-1: The Set-up
   | 1. Open Any Linux Terminal | ![View](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/issues/2#issue-3943769399) | |
