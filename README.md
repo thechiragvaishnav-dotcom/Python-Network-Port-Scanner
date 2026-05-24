@@ -1,7 +1,7 @@
 # Python-Network-Port-Scanner
 
 ## Content
-- [Step-1: The Set-up](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md##step-1-the-set-up)
+- [Step-1: The Set-up](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-1-the-set-up)
 - [Step-2: The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-2-the-script)
 - [Step-3: Saving The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-3-saving-the-script)
 - [Step-4: Running The Script](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/edit/main/README.md#step-4-running-the-script)
