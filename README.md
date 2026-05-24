@@ -137,3 +137,5 @@ print("Scanning Completed in", total)
   | :--- | :--- |
   | <code>total = t2 - t1</code> | Calculates the difference (End Time - Start Time). |
   | <code>print(...)</code> | Shows you exactly how long the scan took (e.g., <code>Scanning Completed in 0:02:15.402</code> ). |
+
+## [Back to Content](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#content)
