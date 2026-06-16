@@ -1,4 +1,4 @@
-# Python-Network-Port-Scanner
+# Python Network Port Scanner
 
 ## Content
 - [Step-1: The Set-up](https://github.com/thechiragvaishnav-dotcom/Python-Network-Port-Scanner/blob/main/README.md#step-1-the-set-up)
